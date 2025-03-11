@@ -15,4 +15,9 @@ The constraints and the implementation of the program are the following:
 	-Each file is allocated contiguous memory blocks.
 	-If contiguous space is unavailable, the allocation fails unless defragmentation is performed.
 	-A bitmap-like structure may be used to keep track of free and occup
+# Implementation of the system with unidimensional memory
 
+In this unidimensional case, the way the storage device is required to function is as follows:
+
+The storage capacity of the device is given and fixed at 8MB;
+The storage capacity of the device is divided into blocks of 8kB each.
