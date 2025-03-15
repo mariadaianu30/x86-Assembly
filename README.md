@@ -24,3 +24,26 @@ The storage capacity of the device is divided into blocks of 8kB each.
 
 # Functionalities of the project
 
+1. `Add( File Allocation)`
+   Tries to find contiguos free blocks to store the files. If enough space is found we allocate the given number of blocks and update the memory. If not enough space is found, allocation fails.
+
+2. `Get(File Retrieval)`
+   Given a certain ID, the system retreives its starting memory block, the end of the memory blocka and displays its content.
+
+3. `Delete(File Deallocation)`
+   Frees up a space for future allocations based on the ID provided.
+   
+4.`Defragmentation(Memory Optimization)`
+   Shifts all allocated blocks to the beggining of the memory by eliminating the gaps between blocks of memory.
+
+
+# How to run the project
+#### In order to execute the program, you must enter a series of commands in the Linux terminal. These commands will handle the assembly, linking, and running of the program. Open the terminal and navigate to the project folder. Below are the steps you need to follow:
+1. gcc -m32 Gcc -m32 132_Daianu_MariaIuliana_0.s -o project0  -no-pie -g
+2. ./project0
+
+Do the same for 132_Daianu_MariaIuliana_1.s .
+
+
+
+
