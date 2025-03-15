@@ -21,3 +21,6 @@ In this unidimensional case, the way the storage device is required to function 
 
 The storage capacity of the device is given and fixed at 8MB;
 The storage capacity of the device is divided into blocks of 8kB each.
+
+# Functionalities of the project
+
